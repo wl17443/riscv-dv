@@ -1,7 +1,9 @@
 name: pyflow tests
 
 on:
-  push:
+  push: 
+    branches-ignore:
+      - orionluo/dev/*
   pull_request:
 
 jobs:
